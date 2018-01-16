@@ -1,0 +1,68 @@
+<div class="slider">
+   <div class="banner">
+ 
+      
+        <?php foreach($image as $key => $value) { ?>
+       
+              <img src="<?php echo $value['image'] ?>" />
+
+          
+        <?php } ?>
+         
+      
+            <div class="news_Logo">
+            </div>
+      
+    </div>
+
+</div>
+        <!--焦点图结束-->
+        <div class="wrap">
+        <div class="contact_us">
+         
+         <div class="title">
+           <h1>联系我们</h1>
+           <img src="<?php echo H_COMMON?>Img/contenus logo.png"/>
+           <h2>CONTACT  US</h2>
+         </div><!--标题结束-->
+         <div class="beijing">
+           <ul>
+           <li><img src="<?php echo H_COMMON?>Img/logo2.png"/>上海市黄浦区淮海东路1000号</li>
+           <li><img src="<?php echo H_COMMON?>Img/logo3.png"/>15216896188</li>
+           <li><img src="<?php echo H_COMMON?>Img/logo4.png"/>foshion</li>
+           </ul>
+         </div>
+         <div class="map">
+           <iframe src="<?php echo MAP ?>" scrolling="no" frameborder="0" width="1200" height="635"></iframe>
+         </div><!--地图结束-->
+        </div> <!--联系我们结束-->
+        
+         <form method="post" action="index.php?mot=home&ctl=contact&act=index"  >
+           <div class="down">
+          
+             <div class="down_left">
+          
+          
+               <input type="text"  value="名字：" name="name">
+                <input type="text"  value="电话：" name="phone">
+                <input type="text"  value="邮箱：" name="email">
+               <input type="text"  value="传真：" name="fax">
+               <textarea name="address">地址:</textarea>
+
+             </div>
+              <div class="down_right">
+             <!-- 
+                  <textarea>留言:</textarea>
+                   <input type="text"  value="输入验证码">
+                       <img src="<?php echo H_COMMON?>Img/yzm.png"/>
+                  <button type="submit">提交</button> -->
+                <textarea name="message">留言:</textarea>
+                  <input class="input-text size-L" type="text" placeholder="验证码" onblur="if(this.value==''){this.value='验证码:'}" onclick="if(this.value=='验证码:'){this.value='';}" value="验证码:" style="width:150px;" name="code">
+                  <img id="cos" style="cursor:pointer;width:143px;height:40px" src="index.php?mot=home&ctl=contact&act=code" onclick="this.src=this.src +'&'+Math.random()"> 
+                <button type="submit">提交</button>
+            
+          </div>
+             
+           </form> 
+      
+           </div><!--右侧信息结束-->

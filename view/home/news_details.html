@@ -1,0 +1,83 @@
+<div class="slider">
+   <div class="banner">
+ 
+      
+        <?php foreach($image as $key => $value) { ?>
+       
+              <img src="<?php echo $value['image'] ?>" />
+
+          
+        <?php } ?>
+         
+      
+            <div class="news_Logo">
+            </div>
+      
+    </div>
+
+</div>
+         
+            <!--中部导航-->
+          <div class="wrap" id="jb"><!--中部导航外套-->
+        <div class="nav">
+         <div class="left">
+             <h3>新闻中心</h3>
+             
+             <p>News center</p>
+         </div><!--中部导航左侧logo结束-->
+         <div class="right">
+            <ul>
+       <?php foreach($news_cate as $value) { ?>
+                <li ><a href="index.php?mot=home&ctl=news&id=<?php echo $value['id']?>#jb"<?php echo $value['id']==$id?'class="current"':''; ?>><?php echo $value['cate_name'] ?></a></li>
+            <?php } ?>     
+               <!--  <li><a href="###">公司新闻</a></li>
+                <li><a href="###">新闻快讯</a></li>
+                <li><a href="###">新闻简报</a></li> -->
+              </ul>
+            </div>
+          </div><!--右侧导航结束-->
+        </div><!--中部导航结束-->
+      </div><!--中部导航外套结束-->
+           
+<div class="wrap">
+  <div class="news">
+                 <div class="title">
+                    <h3>康与智能家居发布会<h3>
+                 </div><!--标题结束-->
+                 <div class="tab">
+                    <p>当前位置&gt;</p>
+                    <p><a href="index.html">首页&gt;</a></p>
+                    <p><a href="news.html">新闻中心&gt;</a></p>
+                    <p class="now"><a href="news_details.html">新闻详情</a></p>
+                 </div><!--选项结束-->
+                 
+                 <div class="worker">
+                    <p>作者：陈梦</p>
+                    <p>2017.4.18</p>
+                 </div><!--作者结束-->
+                 
+                 <div class="news_pic">
+                  <?php foreach($arr2 as $key => $value) { ?>
+                  <img style="width:544px;hieght:452px;"src="<?php echo $value['image'] ?>"/>
+                  <?php } ?>
+                
+                 </div><!--新闻照片结束-->
+                 
+                 <div class="news_article">
+                 <?php foreach($arr2 as $key => $value) { ?>
+                 <p> <?php echo  $value['content'] = htmlspecialchars_decode($value['content']) ?> </p>
+                 <?php } ?>
+                 </div><!--文章结束-->
+                 
+                 <div class="page">
+                 <a href="index.php?mot=home&ctl=news_details&id=<?php echo $prev['id'] ?>&category_id=<?php echo $prev['category_id'] ?>#jb" class="prev">上一篇:<?php echo mb_substr($prev['title'],0,10,'utf-8'); ?></a>
+                  <a href="index.php?mot=home&ctl=news_details&id=<?php echo $next['id'] ?>&category_id=<?php echo $next['category_id'] ?>#jb" class="next">下一篇:<?php echo mb_substr($next['title'],0,10,'utf-8'); ?></a>
+                 </div><!--页码结束-->
+                 
+                 
+   </div><!--新闻结束-->
+</div><!--外套结束-->
+            
+
+                 
+                

@@ -1,0 +1,69 @@
+
+        
+<div class="slider">
+   <div class="banner">
+ 
+      
+        <?php foreach($image as $key => $value) { ?>
+       
+              <img src="<?php echo $value['image'] ?>" />
+
+          
+        <?php } ?>
+         
+      
+            <div class="news_Logo">
+            </div>
+      
+    </div>
+
+</div>
+
+          <div class="wrap">
+           <div class="nav">
+         <div class="left">
+             <h3>公司介绍</h3>
+             <img src="<?php echo H_COMMON?>Img/flower3.png"/>
+             <p>Company introduction</p>
+         </div><!--中部导航左侧logo结束-->
+         <div class="right">
+            <ul>
+            <?php foreach($arr as $key => $value) { ?>
+               <li <?php echo $value['id']==$id?'class="current"':''?>><a href="index.php?mot=home&ctl=about&id=<?php echo $value['id'] ?>" ><?php echo $value['cate_name'] ?></a></li>
+                <?php } ?>
+              </ul>
+            </div>
+          </div><!--右侧导航结束-->
+        </div><!--中部导航结束-->
+      </div><!--外套结束-->
+               
+<div class="about_us">
+ <div class="wrap">
+   <div class="title">
+      <h3><?php echo $arrs['cate_name'] ?></h3>
+      </div><!--公司介绍标题结束-->
+      
+      <div class="tab">
+      <p class="now">当前位置&gt;</p>
+      <p><a href="<?php echo INDEX ?>">首页&gt;</a></p>
+      <p><a href="<?php echo ABOUT ?>">公司介绍</a></p>
+      </div><!--选项卡结束-->
+      
+      <div class="main_up">
+      <?php foreach($arr2 as $key => $value) { ?>
+     
+         <img style="width:390px;height:330px"
+         src="<?php echo $value['image_1'] ?>"/>
+         <img style="width:390px;height:330px" src="<?php echo $value['image_2'] ?>"/>
+         <img style="width:390px;height:330px" src="<?php echo $value['image_3'] ?>"/>
+         
+      </div><!--家具图片结束-->
+      <div class="text">
+       <p><?php echo $value['content'] = htmlspecialchars_decode($value['content']) ?>
+       </p>
+      </div><!--文章结束-->
+
+      <?php } ?>
+ </div><!--公司介绍外套结束-->
+</div><!--公司介绍结束-->
+     

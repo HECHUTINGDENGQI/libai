@@ -1,0 +1,340 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+.on a
+{
+	color:#66bdd9;
+	background:url(../Img/border.png) no-repeat;
+}
+
+.jiaju a
+{
+	color:#66bdd9;
+}
+
+
+
+	
+.nav
+{
+	width:1200px;
+    height:155px;
+	margin-top:0px;
+}
+
+.nav
+{
+    float:left;
+	margin:0 auto;	
+	
+}
+
+.left
+{
+	width:339px;
+	height:155px;
+	float:left;
+	background-color:#64bdd9;
+	background-image:url(../Img/flower3.png);
+	background-repeat:no-repeat;
+	background-position:center 85px;
+}
+.left img
+{
+	margin-left:25%
+}
+
+.left h3
+{
+	margin-top: 36px;
+    font-size: 40px;
+    font-weight: normal;
+    color: white;
+	width:180px;
+	margin-left: 27%;
+	line-height:46px;
+
+}
+.tab
+{
+	width:1200px;
+	float:left;
+	border-bottom:1px solid #64bdd9;
+	padding-bottom:26px;
+}
+
+.now a
+{
+	color:#64bdd9;
+}
+.tab p
+{
+	float:left;
+	font-size:14px;
+	font-family:"微软雅黑"
+}
+.tab p:first-child
+{
+	color:#64bdd9;
+	font-size:16px;
+}
+.tab p a:hover
+{
+	color:#64bdd9;
+}
+.left p
+{
+	font-family:"微软雅黑";
+	font-size:14px;
+	margin-top: 0px;
+    margin-left: 34%;
+	color:#FFF;
+	line-height:100px;
+	
+}
+	
+.right
+{
+	float:left;
+	margin-top:67px;
+	margin-left:-40px;
+}
+.right ul
+{
+	margin-left:50px;
+}
+
+.right ul li
+{
+	float:left;
+	margin-left:60px;
+}
+
+.right ul li a
+{
+	font-family:"微软雅黑";
+	font-size:24px;
+	padding-bottom:5px
+}
+
+.right ul li a:hover
+{   border-bottom:2px solid #95cfe2;  
+	color:#95cfe2;
+}
+.right ul li.current a
+{   border-bottom:2px solid #95cfe2;  
+	color:#95cfe2;
+}                           
+
+
+.right
+{
+	width:818px;
+	height:155px;
+	float:left;
+	
+}
+
+
+
+/*中部导航结束*/
+
+
+
+
+/*--------------------中部导航结束--------------------*/
+
+
+/*--------------------产品中心开始--------------------*/
+.product
+{
+	margin-top:37px;
+}
+
+
+.product h3
+{
+	font-family: "微软雅黑";
+    font-size: 30px;
+    font-weight: normal;
+    margin-left: 522px;
+	padding-bottom: 19px;
+}
+
+
+.title p
+{
+	font-family:"微软雅黑";
+	font-size:30px;
+	text-align:center;
+	margin-top: 40px;
+}
+
+
+.title a:hover
+{
+	color:#64bdd9;
+}
+
+
+
+/*---------------------------产品中心标题结*/
+
+.product_down
+{
+
+	margin-top: 70px;
+}
+
+
+.product_down ul
+{
+	margin-left: -63px;
+	margin-bottom:110px;
+}
+
+
+.product_down ul li
+{
+	float:left;
+	margin-left:64px;
+	width:355px;
+	margin-top: 4px;
+}
+
+.product_down ul li img
+{
+	width:360px;
+	height:327px;
+	border:none;
+}
+	
+.product_down ul li p
+{
+	display:block;
+	width: 348px;
+	font-family:"微软雅黑";
+	line-height:39px;
+	font-size:14px;
+}
+
+.product_down ul li h4
+{
+	text-align:center;
+	line-height:70px;
+	font-size:18px;
+	font-weight:normal;
+}
+.product_down ul li:hover a
+{
+	color:#66bdd9;
+}
+
+
+
+
+.product_down ul li:hover
+{
+	color:#66bdd9;
+}
+
+
+	
+	
+                      
+
+/*--------------------产品中心结束--------------------*/
+
+.page
+{
+	width:100%;
+	float:left;
+	margin-top: 155px;
+	padding-bottom: 62px;
+}
+
+
+.page ul
+{
+    margin-left:437px;
+	float:left;
+}
+
+.page ul li
+{
+	float:left;
+    margin-left:14px;
+	
+	
+}
+
+/* .page ul li:first-child +li a
+{
+	background-color:#86cce1;
+	color:#FFF;
+} */
+.page ul li a
+{
+	display:block;
+
+	padding:3px 15px;
+	border:1px solid #666666;
+	text-align:center;
+	line-height:30px;
+	
+}
+
+.current
+{
+	background-color:#86cce1;
+	color:#FFF;
+}
+
+/* .page ul li:first-child a
+{
+	display:block;
+	width:67px;
+	height:30px;
+	margin-left:0;
+} */
+
+
+/* .page ul li:first-child
+{
+	width:67px;
+}
+ */
+/* .page ul>li+li+li+li+li+li a
+{
+	display:block;
+	width:67px;
+	height:30px;
+	
+} */
+
+/* .page ul li:last-child
+{
+	width:67px;
+	margin-right:0;
+} */
+
+.page ul li:hover a
+{
+	background-color:#86cce1;
+    cursor:pointer;
+	color:#FFF;
+}
+
+
+
+
+
+
+
+
+	
+
+	
+
+

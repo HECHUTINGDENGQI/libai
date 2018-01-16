@@ -1,0 +1,232 @@
+@charset "utf-8";
+/* CSS Document */
+
+.header_left img
+{
+	border:none;
+}
+
+
+.on a
+{
+	color:#66bdd9;
+	background:url(../Img/border.png) no-repeat;
+}
+
+.jia a
+{
+	color:#66bdd9;
+}
+
+
+.nav
+{
+	width:1200px;
+    height:155px;
+	margin-top:0px;
+}
+
+.nav
+{
+    float:left;
+	margin:0 auto;	
+
+}
+
+.left
+{
+	width:339px;
+	height:155px;
+	float:left;
+	background-color:#64bdd9;
+}
+.left img
+{
+	margin-left:25%
+}
+
+.left h3
+{
+	margin-top: 36px;
+    font-size: 40px;
+    font-weight: normal;
+    color: white;
+	width:180px;
+	margin-left: 27%;
+
+}
+.tab
+{
+	width:1200px;
+	float:left;
+	border-bottom:1px solid #64bdd9;
+	padding-bottom:26px;
+}
+
+
+.tab p
+{
+	float:left;
+	font-size:14px;
+	font-family:"微软雅黑"
+}
+.tab p:first-child
+{
+	color:#64bdd9;
+	font-size:16px;
+}
+.tab p a:hover
+{
+	color:#64bdd9;
+}
+.left p
+{
+	font-family:"微软雅黑";
+	font-size:14px;
+	margin-top: 0px;
+    margin-left: 31%;
+	color:#FFF;
+	
+}
+	
+.right
+{
+	float:left;
+	margin-top:67px;
+	margin-left:-40px;
+}
+.right ul
+{
+	margin-left:50px;
+}
+
+.right ul li
+{
+	float:left;
+	margin-left:60px;
+}
+
+.right ul li a
+{
+	font-family:"微软雅黑";
+	font-size:24px;
+	padding-bottom:5px
+}
+
+.right ul li a:hover
+{
+	border-bottom:2px solid #95cfe2;  
+	color:#95cfe2;
+}                          
+
+
+.right
+{
+	width:818px;
+	height:155px;
+	float:left;
+	
+}
+
+.right ul li.current a
+{   border-bottom:2px solid #95cfe2;  
+	color:#95cfe2;
+}                           
+
+
+
+
+/*	中部导航结束*/
+           
+
+
+.about_us
+{
+	width:100%;
+	float:left;
+	margin-top:37px;
+
+}
+
+.about_us h3
+{
+	font-family: "微软雅黑";
+    font-size: 30px;
+    font-weight: normal;
+    margin-left: 522px;
+	padding-bottom: 19px;
+
+}
+
+.title a:hover
+{
+	color:#64bdd9;
+}
+
+.about_us title
+{
+	border-bottom:1px solid color:#64bdd9;
+}
+.title p
+{
+	float:left;
+}
+.now a
+{
+	color:#64bdd9
+}
+
+
+
+
+.main_up
+{
+	margin-top:25px;
+	float:left;
+}
+
+.main_up img
+{
+	border:none;
+	margin-left:10px;
+}
+
+.main_up img:first-child
+{
+	margin-left:0
+}
+
+.text p
+{
+	font-size:14px;
+	font-family:"微软雅黑";
+	line-height:35px;
+	width: 1135px;
+	margin: 0 auto;
+	float:left;
+	margin-left: 25px;
+}
+
+.main_down
+{
+	width:100%;
+	margin-top:32px;
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

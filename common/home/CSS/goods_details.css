@@ -1,0 +1,250 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+/*.banner img
+{
+	height:550px;
+	width:100%;
+}*/
+
+.on a
+{
+	color:#66bdd9;
+	background:url(../Img/border.png) no-repeat;
+}
+.jia a
+{
+	color:#66bdd9;
+}
+	
+
+.nav
+{
+    float:left;
+	margin:0 auto;	
+	padding-top:4px;
+}
+
+.left
+{
+	width:339px;
+	height:155px;
+	float:left;
+	background-color:#64bdd9;
+	background-image:url(../Img/flower3.png);
+	background-repeat:no-repeat;
+	background-position:center 85px;
+}
+
+
+.left h3
+{
+	margin-top: 36px;
+    font-size: 40px;
+    font-weight: normal;
+    color: white;
+	width:180px;
+	margin-left: 27%;
+
+}
+.tab
+{
+	width:1150px;
+	float:left;
+	border-bottom:1px solid #64bdd9;
+	padding-bottom:26px;
+}
+.tab p
+{
+	float:left;
+	font-size:14px;
+	font-family:"微软雅黑"
+}
+
+.now a
+{
+	color:#64bdd9
+}
+.tab p:first-child
+{
+	color:#64bdd9;
+	font-size:16px;
+}
+.tab p a:hover
+{
+	color:#64bdd9;
+}
+.left p
+{
+	font-family:"微软雅黑";
+	font-size:14px;
+	margin-top: 30px;
+    margin-left: 34%;
+	color:#FFF;
+	
+}
+	
+.right
+{
+	float:left;
+	margin-top:67px;
+	margin-left:-40px;
+}
+.right ul
+{
+	margin-left:50px;
+}
+
+.right ul li
+{
+	float:left;
+	margin-left:60px;
+}
+
+.right ul li a
+{
+	font-family:"微软雅黑";
+	font-size:24px;
+	padding-bottom:5px
+}
+.right ul li.current a
+{   border-bottom:2px solid #95cfe2;  
+	color:#95cfe2;
+}                           
+
+.right ul li a:hover
+{   border-bottom:2px solid #95cfe2;  
+	color:#95cfe2;
+}                          
+
+
+/*中部导航结束*/
+
+.product
+{
+	margin-top:37px;
+}
+
+
+.product h3
+{
+	font-family: "微软雅黑";
+    font-size: 30px;
+    font-weight: normal;
+    margin-left: 522px;
+	padding-bottom: 19px;
+	margin-top: 43px;
+	float: left;
+
+}
+
+.news_pic img
+{
+	margin-top:74px;
+	width:1157px;
+	height:700px;
+}
+
+
+
+.title a:hover
+{
+	color:#64bdd9;
+}
+
+.product hr
+{
+	margin-top:25px;
+	color:#64bdd9;
+	size:1px;
+}
+
+
+.news_title p1
+{
+	font-family:"微软雅黑";
+	font-size:30px;
+	margin-left:533px;
+	float: left;
+}
+
+.news_title ul li
+{
+	margin:0;
+	float:left;
+}
+
+.news_title ul li a
+{
+	font-family:"微软雅黑";
+	font-size:14px;
+}
+
+.news_title ul li a:hover
+{
+	color:#64bdd9;
+}
+
+.news_title ul
+{
+	border-bottom:1px solid #64bdd9;
+	height:25px;
+	width:1175px;
+	float: left;
+}
+
+.news_title p2
+{
+    font-family:"微软雅黑";
+	font-size:30px;
+	margin-left:533px;
+	float: left;
+	padding-top:43px;
+	padding-bottom:45px;
+}
+
+.text
+{
+	margin-top:49px;
+}
+
+
+
+.text p
+{
+	width:1200px;
+	font-size:14px;
+	font-family:"微软雅黑";
+	line-height:24px;
+	padding-bottom:24px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*产品介绍结束*/
+
+
+
+
+

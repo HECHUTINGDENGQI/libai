@@ -1,0 +1,155 @@
+        
+<div class="slider">
+   <div class="banner">
+ 
+      <ul>
+        <?php foreach($image as $key => $value) { ?>
+          <li>
+                    <a href="<?php echo GOODS?>"><img 
+                    src="<?php echo $value['image'] ?>" /></a>
+
+          </li>
+        <?php } ?>
+         
+      </ul> 
+            <div class="news_Logo">
+            </div>
+      
+    </div>
+
+<div class="point">
+   <ul>
+      <li></li>
+      <li></li>
+      <li></li>
+   </ul>
+</div>
+   <a class="prev"><img src="<?php echo H_COMMON?>img/prev.png"/></a>
+   <a class="next"><img src="<?php echo H_COMMON?>img/next.png"/></a>
+</div>
+<!--banner结束-->
+      
+      <!--slider结束-->
+<meta http-equiv="Content-Type" content="text/html; charset=utf8">
+<div class="company">
+   <div class="wrap">
+      <div class="company_top">
+          <div class="title">
+              <h3>公司介绍</h3>
+              <span><img src="<?php echo H_COMMON?>img/flower.jpg"/></span>
+              <p>COMPANY  INTRODUCTION</p>
+          </div>
+        <!--标题结束-->
+<div class="company_left">
+<?php foreach($result1 as $key => $value) { ?>
+
+   <img style="width:400px;height:393px" src="<?php echo $value['image_4'] ?>"/>
+
+   <?php } ?>
+
+   
+</div>
+<!--左部照片结束-->
+<div class="company_right">
+    <h3>企业历程看企业截止展</h3>
+    <?php foreach($result1 as $key => $value) { ?>
+
+       <p>
+       <?php echo mb_substr($value['content'] = htmlspecialchars_decode($value['content']),0,440,'utf-8')."..." ?>
+       </p>
+        <?php } ?>
+       <a href="<?php echo ABOUT ?>">查看更多>></a>
+          </div> <!--右部内容结束-->
+        </div><!--公司顶部结束-->
+      </div> <!--外套结束-->
+      
+<div class="product">
+   <div class="wrap">
+       <div class="title">
+              <h3>产品中心</h3>
+              <span><img src="<?php echo H_COMMON?>img/flower.jpg"/></span>
+              <p>PRODUCT  CENTER</p>
+          </div>
+<!--产品中心标题结束 -->  
+   <div class="product_center"> 
+      <ul>
+
+      <?php foreach($arr2 as $key => $value) { 
+     ?>
+      <li><a href="<?php echo GOODS_DETAILS ?>"><img style="width:270px;height:300px"src="<?php echo $value['image'] ?>"></a><span><a href="<?php echo GOODS_DETAILS ?>"><?php echo mb_substr($value['content'] = htmlspecialchars_decode($value['content']),0,50,'utf-8')."..." ?></a></span></li>
+      <?php } ?>
+     </ul>
+          <a class="more" href="<?php echo GOODS ?>">查看更多>></a>
+   </div><!--产品介绍结束-->
+  </div><!--产品中心外套结束-->
+</div><!--产品中心结束-->
+
+
+ <div class="news">
+    <div class="wrap">
+        <div class="title">
+              <h3>新闻中心</h3>
+              <span><img src="<?php echo H_COMMON?>img/flower.jpg"/></span>
+              <p>NEWS  CENTER</p>
+       </div><!--新闻标题结束-->
+    <div class="news_main">
+    <div class="news_left">
+        <?php foreach($result3 as $key => $value) { ?>
+       <img style="width:540px;height:420px" src="<?php echo $value['image'] ?>"/>
+
+       <?php } ?>
+    </div><!--新闻左部结束-->
+    
+    <div class="news_right">
+     <ul>
+      <?php foreach($result4 as $key => $value) { ?>
+
+       <li><a href="<?php echo NEWS_DETAILS ?>"><?php echo mb_substr($value['content'] = htmlspecialchars_decode($value['content']),0,50,'utf-8')."..." ?></a>
+       </li>
+      <?php } ?>
+    </ul>
+    <a class="more" href="<?php echo NEWS ?>">查看更多&gt;&gt;</a>
+   </div><!--新闻右部结束-->
+     
+    </div><!--新闻主体结束-->
+  
+    
+    </div><!--外套结束-->
+ </div><!--新闻中心结束-->
+ 
+ <div class="contact_us">
+           <div class="wrap">
+                <div class="title">
+              <h3>联系我们</h3>
+              <span><img src="<?php echo H_COMMON?>img/flower.jpg"/></span>
+              <p>CONTACT  US</p>
+          </div>
+        <div class="contact_us_from">
+          <h3>CONTACT  US</h3>
+          <h2>联系我们</h2>
+          
+          <div class="from_body">
+           <form action="" method="post" action="index.php?mot=home&ctl=index&act=index">
+             名字： <input type="text" name="name" >
+             号码：<input type="text" name="phone" >
+             <h4>邮箱：</h4><textarea name="email"></textarea>
+             <button type="submit">提交留言</button>
+           </form>
+           </div>
+           <div class="phone">
+        <ul>
+          <li><img src="<?php echo H_COMMON?>img/phone.png"/>电话：15216896696</li>
+          <li><img src="<?php echo H_COMMON?>img/wechat.png"/>微信：15216896696</li>
+          <li><img src="<?php echo H_COMMON?>img/adress.png"/>公司地址：上海市黄浦区淮海中路899号</li>
+        </ul>
+        </div>
+         
+         
+         </div><!--底部信息结束-->
+           
+         </div>
+        <!--联系我们表格结束-->
+       </div><!--外套结束-->
+        </div>
+        <!--联系我们结束-->
+

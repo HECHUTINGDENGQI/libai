@@ -1,0 +1,90 @@
+<div class="slider">
+   <div class="banner">
+ 
+      
+        <?php foreach($image as $key => $value) { ?>
+       
+              <img src="<?php echo $value['image'] ?>" />
+
+          
+        <?php } ?>
+         
+      
+            <div class="news_Logo">
+            </div>
+      
+    </div>
+
+</div>
+
+
+       
+          <div class="wrap" id="jb">
+           <div class="nav">
+         <div class="left">
+             <h3>产品中心</h3>
+            <p>Product center</p>
+         </div><!--中部导航左侧logo结束-->
+         <div class="right">
+               <ul>
+            <?php foreach($arr as $key => $value) { ?>
+                <li <?php echo $value['id']==$id?'class="current"':''?>><a href="index.php?mot=home&ctl=goods&id=<?php echo $value['id'] ?>#jb" ><?php echo $value['cate_name'] ?></a></li>
+                <?php } ?>
+              </ul>
+            </div>
+          </div><!--右侧导航结束-->
+        </div><!--中部导航结束-->
+      </div><!--中部导航外套结束-->
+               
+              <div class="wrap">
+               <div class="goods">
+                 <div class="title">
+                    <p><?php echo $arrs['cate_name'] ?><p>
+                 </div><!--标题结束-->
+                 <div class="tab">
+                 <p class="now">当前位置&gt;</p>
+                 <p><a href="<?php echo INDEX ?>">首页&gt;</a></p>
+                 <p><a href="<?php echo GOODS_DETAILS ?>">产品中心</a></p>
+                 </div><!--选项结束-->
+                 
+                 <div class="product_down">
+
+              
+                   <ul>
+                      
+                         <?php foreach($goods_list as $key => $value) { ?>
+                      <li>
+                       <a href="index.php?mot=home&ctl=goods_details&id=<?php echo $value['id'] ?>&category_id=<?php echo $value['category_id']?>"><img style="width:360px;height:326px" src="<?php echo $value['image'] ?>"/></a>
+                       <div class="articl">
+                       <h4><a href="index.php?mot=home&ctl=goods_details&id=<?php echo $value['id']?>&category_id=<?php echo $value['category_id']?>"><?php echo $value['name'] ?></a></h4>
+                       <p><?php echo mb_substr($value['content'],0,50,'utf-8')."..." ?>
+                       </p>
+                       <!-- <span>作者：<?php echo $value['author'] ?></span>
+                       <span class="date"><?php echo $value['create_time'] ?></span> -->
+                      
+                       </div><!--文章结束-->
+                       
+                       
+                      </li>
+                      <?php } ?>
+             
+               
+                   </ul>
+
+                 </div><!--正文结束  -->             
+               </div><!--新闻结束-->
+               </div><!--新闻外套结束-->
+               
+               <div class="wrap">
+        
+         <div class="page">
+           <ul>
+             <?php echo $page ?>
+           </ul>
+         </div><!--页码结束-->
+          
+        </div><!--产品中心结束-->
+        </div><!--外套结束-->
+      
+        <!--产品结束-->
+      

@@ -1,0 +1,75 @@
+<div class="slider">
+   <div class="banner">
+ 
+      
+        <?php foreach($image as $key => $value) { ?>
+       
+              <img src="<?php echo $value['image'] ?>" />
+
+          
+        <?php } ?>
+         
+      
+            <div class="news_Logo">
+            </div>
+      
+    </div>
+
+</div>
+       <div class="wrap" id="jb"><!--中部导航外套-->
+        <div class="nav">
+         <div class="left">
+             <h3>产品中心</h3>
+           
+             <p>Product center</p>
+         </div><!--中部导航左侧logo结束-->
+         <div class="right">
+            <ul>
+                  <?php foreach($goods_cate as  $value) { ?>
+                <li ><a href="index.php?mot=home&ctl=goods&id=<?php echo $value['id']?>#jb"<?php echo $value['id']==$id?'class="current"':''; ?>><?php echo $value['cate_name'] ?></a></li>
+            <?php } ?>
+              </ul>
+            </div>
+          </div><!--右侧导航结束-->
+        </div><!--中部导航结束-->
+      </div><!--中部导航外套结束-->
+      
+     <div class="wrap"><!--产品中心外套-->
+       <div class="product"><!--产品中心-->
+          <div class="title">
+           <h3>产品中心</h3>
+       </div><!--公司介绍标题结束-->
+      
+      <div class="tab">
+         <p class="now">当前位置&gt;</p>
+         <p><a href="index.html">首页&gt;</a></p>
+         <p><a href="product.html">产品中心&gt;</a></p>
+         <p><a href="pro_details.html">产品详情</a></p>
+      </div><!--选项卡结束-->
+
+       <div class="news_pic">
+           <h3>家居文化</h3>
+
+           <?php foreach($arr2 as $key => $value) { ?>
+                  <img style="width:1156px;height:698px" src="<?php echo $value['image'] ?>"/>
+                  <?php } ?>
+                
+
+
+        </div><!--产品中心照片结束-->
+        <div class="text">
+        <?php foreach($arr2 as $key=>$value) { ?>
+          <p> <?php echo $value['content'] = htmlspecialchars_decode($value['content']) ?> 
+           </p>
+        <?php } ?>
+        
+        
+         </div><!--产品中心文章结束-->
+       </div><!--产品中心结束-->
+      </div><!--产品中心外套结束--> 
+      
+     
+    
+        
+           
+           

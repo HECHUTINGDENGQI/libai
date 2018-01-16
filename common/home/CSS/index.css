@@ -1,0 +1,432 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*------------------------公司标题*/
+
+.header_left img
+{
+	border:none;
+}
+
+.point
+{
+	cursor:pointer;
+}
+.on a
+{
+	color:#66bdd9;
+	background:url(../Img/border.png);
+}
+.title h3
+{
+	font-family: "微软雅黑";
+    text-align: center;
+    font-size: 30px;
+    font-weight: normal;
+    margin-top: 62px;
+    width: 127px;
+    margin: 0 auto;
+	border-bottom:2px solid #000;
+    padding-bottom: 14px;
+}
+
+.title img
+{
+	margin:0 54px;
+	float:left;
+	margin-left:49%;
+	margin-top:-11px;
+}
+
+.title p
+{
+	font-family: "微软雅黑";
+	font-size: 14px;
+	text-align: center;
+	margin-top: 21px;
+}
+
+		
+/*--------------------------------------公司标题结束*/
+
+
+/*----------------------------------------公司介绍开始*/
+
+
+
+.company_left
+{
+	float:left;
+	margin-top:34px;
+}
+
+.company_right
+{
+	height:393px;
+	width:767px;
+	display: block;
+    margin-left: 429px;
+	margin-top:71px;
+	
+}
+
+.company_right a
+{
+	width:115px;
+    height:30px;
+    background-color:#86cce0;
+	text-align:center;
+	font-family:"微软雅黑";
+    font-size:18px;
+    color:#FFF;
+	float:right;
+	margin-top:49px;
+	line-height: 30px;
+}
+	
+
+.company_right h3
+{
+	margin-left: 247px;
+    font-family: "微软雅黑";
+    font-size: 18px;
+    font-weight: normal;
+	width: 182px;
+}
+
+
+.company_right p
+{
+	margin-top: 19px;
+    line-height: 27px;
+    font-family: "微软雅黑";
+    font-size: 14px;
+}
+
+.bottom a
+{
+	width:116px;
+    height:29px;
+    background-color:#86cce0;
+	text-align:center;
+	line-height:29px;
+    font-family:"微软雅黑";
+    font-size:18px;
+    color:#FFF;
+	margin-top:80px;
+	margin-left:652px;
+    float: right;	
+}
+/*-------------------------------------公司介绍结束*/
+/*---------------------------------------产品中心开始*/
+
+.product
+{
+	width:100%;
+	margin-top:120px;
+	float:left
+}
+
+/*---------------------------------产品中心标题结束*/
+
+.product_center
+{
+	width:100%;
+	margin-top:55px;
+}
+
+
+
+.product_center ul li
+{
+	float:left;
+	width:275px;
+	margin-left: 32px;
+}
+.product_center ul li img
+{
+	border:none;
+}
+
+.product_center ul li:first-child
+{
+	margin-left:0px;
+}
+
+.product_center ul li span
+{
+	display:block;
+	width:275px;
+	font-family:"微软雅黑";
+	font-size:16px;
+	margin-left: 0px;
+	margin-top: 26px;
+    line-height: 23px;
+
+}
+.product_center ul li a:hover
+{
+	color:#71c1da;
+	cursor:pointer;
+}
+
+.product_center .more
+{   width:115px;
+    height:30px;
+    background-color:#86cce0;
+	text-align:center;
+	font-family:"微软雅黑";
+    font-size:18px;
+    color:#FFF;
+	float:right;
+	margin-top:49px;
+	line-height: 30px;
+}
+
+
+
+/*
+
+
+
+
+
+
+/*------------------------------------------产品介绍结束*/
+/*-------------------------------------------新闻中心开始*/
+
+.news
+{
+	float:left;
+	height:531px;
+	width:100%;
+	margin-top:100px;
+}
+
+.news title h3
+{
+	width:220px;
+	border-bottom:2px solid #000;
+}
+
+.news_left
+{
+	float:left;
+	margin-top:34px;
+}
+.news_right
+{
+	margin-top: 34px;
+    float: left;
+    height: 356px;
+    width: 615px;
+    margin-left: 45px;
+}
+
+.news_right ul
+	margin-top:20px;
+}
+.news_right ul li:first-child
+{
+	margin-top:0
+}
+
+.news_right ul li
+{
+	margin-top:60px;
+}
+
+.news_right ul li a:hover
+{
+	color:#86cce1;
+}
+
+.news_right .more
+{
+	width:115px;
+    height:30px;
+    background-color:#86cce0;
+	text-align:center;
+	font-family:"微软雅黑";
+    font-size:18px;
+    color:#FFF;
+	float:right;
+	margin-top:49px;
+	line-height: 30px;
+}
+
+/*---------------------------------------新闻中心结束*/
+
+
+
+
+	
+
+
+
+
+.contact_us
+{   
+	float:left;
+}
+
+.top
+{
+	float:left;
+	width:100%;
+	text-align:center;
+}
+
+.contact_us_title
+{
+	height:100px;
+}
+.top h3
+{
+	float:left;
+	font-family:"微软雅黑";
+	font-size:30px;
+	font-weight:normal;
+	margin-left: 540px;
+	margin-top: 15px;
+}
+
+.mid img
+{
+	margin-left:20px;
+	margin-left: 540px;
+}
+
+.down h4
+{
+	font-family:"微软雅黑";
+	font-size:14px;
+	font-weight:normal;
+	margin-left:552px;
+}
+
+.contact_us
+{
+	background :url(../Img/contact%20us%20bg.png) no-repeat center center;
+	background-color:#FFF;
+	width:100%;
+	margin-top:25px;
+	height:659px;
+}
+
+.contact_us_from h3
+{
+	font-family: "微软雅黑";
+    font-size: 30px;
+    font-weight: normal;
+    text-align: center;	
+	padding-top: 31px;
+}
+
+.contact_us_from h2
+{
+	font-family: "微软雅黑";
+    font-size: 16px;
+    font-weight: normal;
+    text-align: center;
+}
+	
+.contact_us_from h4
+{
+	    width: 48px;
+    margin-top: 13px;
+}
+
+.contact_us_from
+{
+	background:url(../Img/message-1.png);
+	width:540px;
+	height:550px;
+	margin: 0 auto;
+}
+
+.contact_us_from input
+{
+	margin:10px;
+	background-color:#e1ebed;
+	outline:none;
+	border:none;
+	width:239px;
+    height:31px;
+	padding-left:6px;
+	line-height:31px;
+
+}
+
+
+.contact_us_from input:last-child
+{
+	width:169px;
+	height:31px;
+	background-color:#000;
+	color:#FFF;
+	margin-left:96px;
+}
+
+.contact_us_from input+input
+{
+	margin-left:15px;
+}
+
+form
+{
+    width: 326px;
+	margin: 0 85px;
+}
+.contact_us_from textarea
+{
+    width: 245px;
+    height: 128px;
+    background: #e1ebed;
+    padding-left: 6px;
+    margin-left: 62px;
+    margin-top: -14px;
+    outline: none;
+    resize: none;
+    border: none;
+    overflow: hidden;
+    padding-top: 4px;
+}
+
+.contact_us_from button
+{
+	    margin-left: 31%;
+    font-family: "微软雅黑";
+    width: 165px;
+    height: 31px;
+    margin-top: 16px;
+    border: none;
+    color: white;
+    background-color: black;
+	outline:none;
+}
+
+.contact_us_from button:hover
+{
+	cursor:pointer;
+}
+
+.contact_us_from ul
+{
+	margin-left: 30%;
+    margin-top: 67px;
+}
+.contact_us_from ul li+li+li
+{
+	margin-left:-15%
+}
+
+
+.phone img
+{
+	    float: left;
+    margin-top: 1px;
+	    margin-right: 7px;
+}
+
+

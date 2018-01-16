@@ -1,0 +1,98 @@
+<div class="slider">
+   <div class="banner">
+ 
+      
+        <?php foreach($image as $key => $value) { ?>
+       
+              <img src="<?php echo $value['image'] ?>" />
+
+          
+        <?php } ?>
+         
+      
+            <div class="news_Logo">
+            </div>
+      
+    </div>
+
+</div>
+
+      
+ <meta http-equiv="Content-Type" content="text/html; charset=utf8">    
+         
+            <!--中部导航-->
+       <div class="wrap" id="jb"><!--中部导航外套-->
+        <div class="nav">
+         <div class="left">
+             <h3>新闻中心</h3>
+             
+             <p>News center</p>
+         </div><!--中部导航左侧logo结束-->
+         <div class="right">
+            <ul>
+            <?php foreach($arr as $key => $value) { ?>
+                <li <?php echo $value['id']==$id?'class="current"':''?>><a href="index.php?mot=home&ctl=news&id=<?php echo $value['id'] ?>#jb" ><?php echo $value['cate_name'] ?></a></li>
+                <?php } ?>                                                                                
+              </ul>
+            </div>
+          </div><!--右侧导航结束-->
+        </div><!--中部导航结束-->
+      </div><!--中部导航外套结束-->
+               
+              <div class="wrap" >
+               <div class="news">
+                 <div class="title">
+                    <p><?php echo $arrs['cate_name'] ?><p>
+                 </div><!--标题结束-->
+                 <div class="tab">
+                 <p class="now">当前位置&gt;</p>
+                 <p><a href="<?php echo INDEX ?>">首页&gt;</a></p>
+                 <p><a href="<?php echo NEWS_DETAILS ?>">新闻中心</a></p>
+                 </div><!--选项结束-->
+                 
+                 <div class="view">
+
+              
+                   <ul>
+                     
+                         <?php foreach($news_list as $key => $value) { ?>
+
+                         <!-- $value['content'] = strip_tags(htmlspeicalchars_decode($value['content'])); -->
+
+                         
+                      <li>
+                       <a href="index.php?mot=home&ctl=news_details&id=<?php echo $value['id'] ?>&category_id=<?php echo $value['category_id']?>"><img  style="width:290px;height:210px" src="<?php echo $value['image'] ?>"/></a>
+                       <div class="articl">
+                       <h4><a href="index.php?mot=home&ctl=news_details&id=<?php echo $value['id']?>&category_id=<?php echo $value['category_id']?>"><?php echo $value['title'] ?></a></h4>
+                       <p><?php echo mb_substr($value['content'],0,50,'utf-8')."..." ?>
+                         <!-- <?php echo $value['content'] ?> -->
+                       </p>
+                       <span>作者：<?php echo $value['author'] ?></span>
+                       <span class="date"><?php echo $value['create_time'] ?></span>
+                      <a class="more" href="index.php?mot=home&ctl=news_details&id=<?php echo $value['id']?>&category_id=<?php echo $value['category_id']?>">查看详情&gt;&gt;</a>
+                       </div><!--文章结束-->
+                       
+                       
+                      </li>
+                      <?php } ?>
+
+             
+               
+                   </ul>
+                 </div><!--正文结束  -->             
+               </div><!--新闻结束-->
+               </div><!--新闻外套结束-->
+               
+               <div class="wrap">
+                <div class="page">
+           <ul>
+             <?php echo $page ?>
+           </ul>
+         </div><!--页码结束-->
+         </div>
+         
+          
+    
+        </div>
+        <!--产品结束-->
+        
